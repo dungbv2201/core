@@ -1,0 +1,24 @@
+{
+    "name": "vandung/base",
+    "authors": [
+        {
+            "name": "Dũng Bùi",
+            "email": "dungbv2201@gmail.com"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "dung\\Core\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dung\\Core\\Providers\\CoreServiceProvider"
+            ]
+        }
+    }
+
+}
